@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Madverse</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><img class="gif1" src="madverse2.jpeg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link hover1 btn btn-outline-dark" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover1 btn btn-outline-dark" href="/index.html#blog1">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover1 btn btn-outline-dark active" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle hover1 btn btn-outline-dark" href="#" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item disabled" href="#">Choose one</a></li>
+                            <li><a class="dropdown-item" href="/course.html#fit1">Fitness</a></li>
+                            <li><a class="dropdown-item" href="/course.html#self1">Self Improvement</a></li>
+                            <li><a class="dropdown-item" href="/course.html#med1">Meditation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover1 btn btn-outline-dark" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div style="float: right;margin-right: 5px;">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="hover1 btn btn-outline-dark" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Sign Up
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleName1" class="form-label">Enter Name</label>
+                                            <input type="email" class="form-control" id="exampleName1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="gen1" class="form-label">Gender</label>
+                                            <div id="gen1" class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Male
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault2">
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                    Female
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault2">
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                    Others
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">I agree</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div style="float: right;margin-right: 5px;">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="hover1 btn btn-outline-dark" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2">
+                        Login
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Login Page</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail2" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail2"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword2" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword2">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Login</button>
+                                </div>
+                                </form>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="hover1 btn btn-outline-dark" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container marketing">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">MADVERSE- LAST DESTINATION TO FIND TRUE YOU <span
+                        class="text-muted">.Yes, your true potential.</span></h2>
+                <p class="lead">In Madverse, we deliever the members the best technique to find
+                    their latent potential .We cover the holistic development by focusing on the core aspewcts of life
+                    - Physical health, Mental health and Self improvement.</p>
+                <p class="lead">Here the commuity is very healthy and provide you with the best support 24/7
+                    .It is a non profit organisation ran through donations from our sponsers including
+                    Mindvalley,Apple,Darebee,and many more, and the fellow members who fund us with donations.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img src="madverse2.jpeg" alt="Madverse" width="500" height="500">
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row featurette">
+            <h1 class="featurette-heading text-center">Our Founders</h1>
+
+            <div class="col-lg-4">
+
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="madverse2.jpeg"
+                    alt="LSHUBHAM">
+
+                <h2>L Shubham</h2>
+                <p>Full-stack developer,Entrepreneur,Fitness Freak</p>
+                <p><a class="btn btn-secondary" href="#">Know more »</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+
+            </div>
+        </div><!-- /.row -->
+
+        <hr class="featurette-divider">
+
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="/index.html"
+                        class="button btn-outline-primary nav-link px-2 text-muted">Home</a>
+                </li>
+                <li class="nav-item"><a href="/index.html#blog1"
+                        class="button btn-outline-primary nav-link px-2 text-muted">Blog</a>
+                </li>
+                <li class="nav-item"><a href="/about.html"
+                        class="button btn-outline-primary nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="/course.html"
+                        class="button btn-outline-primary nav-link px-2 text-muted">Course</a></li>
+                <li class="nav-item"><a href="/contact.html"
+                        class="button btn-outline-primary nav-link px-2 text-muted">Contact</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2022 Madverse, Inc</p>
+        </footer>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
